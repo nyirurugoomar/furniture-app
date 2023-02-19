@@ -30,7 +30,6 @@ useEffect(()=>{
             {/* <Link href='/'> */}
             <img src=
             {logo}
-            
             alt="/" 
             width='100'  
             height='100'
@@ -42,24 +41,24 @@ useEffect(()=>{
           <div>
             <ul className='hidden md:flex mr-8'>
                 {/* <Link href='/'> */}
-                    <li className='ml-10 text-sm uppercase hover:border-b text-white p-4 font-bold'>Home</li>
+                    <li className='ml-10 text-sm uppercase hover:border-b-2 border-[#F1C40F]  text-white p-4 font-bold'>Home</li>
                 {/* </Link> */}
                 {/* <Link href='/#about'> */}
-                    <li className='ml-10 text-sm uppercase hover:border-b text-white p-4 font-bold'>About</li>
+                    <li className='ml-10 text-sm uppercase hover:border-b-2 border-[#F1C40F] text-white p-4 font-bold'>About</li>
                 {/* </Link> */}
                 {/* <Link href='/#skills'> */}
-                    <li className='ml-10 text-sm uppercase hover:border-b text-white p-4 font-bold'>Skills</li>
+                    <li className='ml-10 text-sm uppercase hover:border-b-2 border-[#F1C40F] text-white p-4 font-bold'>Services</li>
                 {/* </Link> */}
                 {/* <Link href='/#project'> */}
-                    <li className='ml-10 text-sm uppercase hover:border-b text-white p-4 font-bold'>Projects</li>
+                    <li className='ml-10 text-sm uppercase hover:border-b-2 border-[#F1C40F] text-white p-4 font-bold'>Products</li>
                 {/* </Link> */}
                 {/* <Link href='/#contact'> */}
-                    <li className='ml-40 text-sm uppercase hover:border-b text-black text-center font-bold bg-[#F1C40F] p-4 rounded h-12 w-40 '>Contact</li>
+                    <li className='ml-40 text-sm uppercase hover:border-b-2 border-[#F1C40F] text-black text-center font-bold bg-[#F1C40F] p-4 rounded h-12 w-40 '>Contact</li>
                 {/* </Link> */}
             </ul>
             
             <div onClick={handleNav} className='md:hidden cursor-pointer'>
-               <AiOutlineMenu size={25}/>
+               <AiOutlineMenu size={25} color='white'/>
             </div>
           </div> 
         </div>
@@ -69,14 +68,15 @@ useEffect(()=>{
              : 'fixed left-[-100%] top-0  p-10 ease-in duration-500'}>
             <div>
                 <div className='flex w-full items-center justify-between'>
-                    {/* <Link href='/'>
-                    <img
-                    src='/../public/assets/omar080.png' 
-                    width='70' 
-                    height='70'
-                    alt='/' 
-                    />
-                    </Link> */}
+                    {/* <Link href='/'> */}
+                    <img src=
+                     {logo}
+                     alt="/" 
+                     width='70'  
+                     height='70'
+            
+                     />
+                    {/* </Link> */}
                     
                     <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                         <AiOutlineClose/>
@@ -96,10 +96,10 @@ useEffect(()=>{
                         <li onClick={()=>setNav(false)} className='py-4 text-sm'>About</li>
                     {/* </Link> */}
                     {/* <Link href='/#skills'> */}
-                        <li onClick={()=>setNav(false)} className='py-4 text-sm'>Skills</li>
+                        <li onClick={()=>setNav(false)} className='py-4 text-sm'>Services</li>
                     {/* </Link> */}
                     {/* <Link href='/#project'> */}
-                        <li onClick={()=>setNav(false)} className='py-4 text-sm'>Projects</li>
+                        <li onClick={()=>setNav(false)} className='py-4 text-sm'>Products</li>
                     {/* </Link> */}
                     {/* <Link href='/#contact'> */}
                         <li onClick={()=>setNav(false)} className='py-4 text-sm'>Contact</li>

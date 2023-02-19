@@ -4,7 +4,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily:{
+      'krona': ['Krona One, sans-serif']
+    },
+    extend: {
+      backgroundImage: {
+        'hero-bg': "url('/Users/Omar/Desktop/react-projects/furniture/furniture/furniture-app/src/assets/herobg.png')"
+        
+      }
+    },
   },
   plugins: [],
 }
