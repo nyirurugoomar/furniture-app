@@ -1,4 +1,9 @@
 import React, { useState } from 'react';
+import All from './All';
+import Bed from './Bed';
+import DinningRoom from './DinningRoom';
+import HomeOffice from './HomeOffice';
+import LivingRoom from './LivingRoom';
 import Tab from './Products';
 
 const product = [
@@ -18,7 +23,7 @@ const ProductContainer = () => {
     };
   
     return (
-      <div className="text-center  border-gray-200 rounded-lg">
+      <div className=" border-gray-200 rounded-lg ">
         <div className="flex items-center">
           {product.map((product) => (
             <Tab
@@ -29,12 +34,12 @@ const ProductContainer = () => {
             />
           ))}
         </div>
-        <div className='mt-20 text-blue-600'>
-          {activeTab === 1 && <div>ALL</div>}
-          {activeTab === 2 && <div>Living Room</div>}
-          {activeTab === 3 && <div>Bedroom</div>}
-          {activeTab === 4 && <div>Dining Room</div>}
-          {activeTab === 5 && <div>Home Office</div>}
+        <div className=''>
+          {activeTab === 1 && <div><All/></div>}
+          {activeTab === 2 && <div><LivingRoom/></div>}
+          {activeTab === 3 && <div><Bed/></div>}
+          {activeTab === 4 && <div><DinningRoom/></div>}
+          {activeTab === 5 && <div><HomeOffice/></div>}
           
         </div>
       </div>
