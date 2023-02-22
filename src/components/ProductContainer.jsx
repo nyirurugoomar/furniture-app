@@ -23,6 +23,7 @@ const ProductContainer = () => {
     };
   
     return (
+      <>
       <div className=" border-gray-200 rounded-lg ">
         <div className="flex items-center">
           {product.map((product) => (
@@ -42,7 +43,10 @@ const ProductContainer = () => {
           {activeTab === 5 && <div><HomeOffice/></div>}
           
         </div>
+        
       </div>
+      
+      </> 
     );
   };
 
