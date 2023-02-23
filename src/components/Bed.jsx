@@ -6,7 +6,7 @@ import bed from '../assets/bed.png'
 function Bed() {
   return (
     <>
-    <div name='services' className='max-w-[1240px] mx-auto text-white'>
+    <div  className='max-w-[1240px] mx-auto text-white'>
           {/* <h1 className='text-center text-black font-bold text-6xl'></h1> */}
 
           <div className='grid grid-cols-1 lg:grid-cols-3  gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black'>
