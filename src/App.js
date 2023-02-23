@@ -1,22 +1,28 @@
 
 import './App.css';
-import Categories from './components/Categories';
-import Footer from './components/Footer';
-import Hero from './components/Hero';
+import Home from './components/Home';
+import { BrowserRouter as Router,Route, Switch} from 'react-router-dom';
 import Navbar from './components/Navbar';
-import ProductContainer from './components/ProductContainer';
-import Whoweare from './components/Whoweare';
+import Footer from './components/Footer';
+import aboutUs from './components/Pages/aboutUs';
 
 function App() {
   return (
     <>
-    <Navbar/>
-    <Hero/>
-    <Categories/>
-    <Whoweare/>
-    <ProductContainer/>
-    <Footer/>
+    <Router>
       
+       <Navbar/>
+      
+      
+      
+     <Switch>
+        <Route exact path='/' component={Home}/>
+        
+        <Route path='/aboutus' component={aboutUs}/>
+        
+     </Switch> 
+      <Footer/>
+</Router>  
     </>
   );
 }

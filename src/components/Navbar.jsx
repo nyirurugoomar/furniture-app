@@ -2,6 +2,7 @@
 import React,{useState, useEffect} from 'react'
 import {AiOutlineClose,AiOutlineMenu} from 'react-icons/ai'
 import {FaFacebook, FaGithub, FaLinkedinIn} from 'react-icons/fa'
+import { NavLink } from "react-router-dom";
 
 import logo from '../assets/logo.png'
 
@@ -26,8 +27,8 @@ useEffect(()=>{
 },[])
   return (
     <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]': 'fixed w-full h-20 z-[100]'}>
-        <div className='flex justify-between items-center w-full h-full px-10 2xl:px-16 bg-black'>
-            {/* <Link href='/'> */}
+        <div className='flex justify-between items-center w-full h-full px-10 2xl:px-16 bg-black '>
+        <NavLink to="/" >
             <img src=
             {logo}
             alt="/" 
@@ -35,17 +36,17 @@ useEffect(()=>{
             height='100'
             
             />
-            {/* </Link> */}
+            </NavLink>
         
          
           <div>
             <ul className='hidden md:flex mr-8'>
-                {/* <Link href='/'> */}
+                  <NavLink to="/" >
                     <li className='ml-10 text-sm uppercase hover:border-b-2 border-[#F1C40F]  text-white p-4 font-bold'>Home</li>
-                {/* </Link> */}
-                {/* <Link href='/#about'> */}
+                    </NavLink>
+                <NavLink to="/aboutus" >
                     <li className='ml-10 text-sm uppercase hover:border-b-2 border-[#F1C40F] text-white p-4 font-bold'>About</li>
-                {/* </Link> */}
+                </NavLink>
                 {/* <Link href='/#skills'> */}
                     <li className='ml-10 text-sm uppercase hover:border-b-2 border-[#F1C40F] text-white p-4 font-bold'>Services</li>
                 {/* </Link> */}
