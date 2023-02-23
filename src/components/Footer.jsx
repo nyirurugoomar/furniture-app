@@ -49,7 +49,7 @@ function Footer() {
                
             </div>
 
-            <h1 className='text-white text-center mt-20 tracking-widest font-[700]'>Furniture 2023 All rights reserved</h1>
+            <h1 className='text-white text-center mt-40 tracking-widest font-[700]'>Furniture 2023 All rights reserved</h1>
         </div>
     
     </>
