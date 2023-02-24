@@ -47,9 +47,9 @@ useEffect(()=>{
                 <NavLink to="/aboutus" >
                     <li className='ml-10 text-sm uppercase hover:border-b-2 border-[#F1C40F] text-white p-4 font-bold'>About</li>
                 </NavLink>
-                {/* <Link href='/#skills'> */}
+                <NavLink to="/services" >
                     <li className='ml-10 text-sm uppercase hover:border-b-2 border-[#F1C40F] text-white p-4 font-bold'>Services</li>
-                {/* </Link> */}
+                    </NavLink>
                 {/* <Link href='/#project'> */}
                     <li className='ml-10 text-sm uppercase hover:border-b-2 border-[#F1C40F] text-white p-4 font-bold'>Products</li>
                 {/* </Link> */}

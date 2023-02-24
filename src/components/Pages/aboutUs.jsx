@@ -6,12 +6,20 @@ import team1 from './images/team1.png'
 import team2 from './images/team2.png'
 
 
+
 function aboutUs() {
   return (
     <>
+    <div className='pt-20 bg-about-banner-bg bg-cover h-[232px] '>
+    
+    <h1 className='text-center pt-10 text-[30px] text-white font-[700] tracking-widest'> About<span className='text-[#F1C40F]'> US</span> </h1>
+    </div>
+    
     <div className='w-full md:h-full flex items-center py-20 md:px-20 '>
         <div className='max-w-[1240px] m-auto md:grid grid-cols-3 mb-[90px]'>
+            
             <div className='col-span-2'> 
+            
                 <h2 className='font-krona font-[400] text-[65px] tracking-wider mt-20'>What We  Do</h2>
                 <p className='text-[15px] w-[511px] h-[144px] tracking-widest'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, metus vitae malesuada blandit, lacus purus dignissim nisl, ac tincidunt velit risus ac enim. 
@@ -103,9 +111,9 @@ function aboutUs() {
               </div>
               <div className=''>
              
-                  <div className='p-1'>
+                  <div className='p-1 group hover:bg-gradient-to-r from-[#F1C40F] to-[#e4d458]'>
                  
-                  <img src={team1} alt=''/>
+                  <img src={team1} className='group-hover:opacity-10 rounded-xl' alt=''/>
                   
                   </div>
                     
