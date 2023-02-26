@@ -14,7 +14,8 @@ module.exports = {
         'about-banner-bg': "url('/src/components/Pages/images/about banner.png')",
         'banner-bg': "url('/src/assets/banner.png')",
         'services-banner-bg': "url('/src/components/Pages/images/services banner.png')",
-        'miniImage_services': "url('/src/components/Pages/images/minImage_services.png')"
+        'miniImage_services': "url('/src/components/Pages/images/minImage_services.png')",
+        'product-hero-bg': "url('/src/components/Pages/images/product hero.png')"
 
       },
       

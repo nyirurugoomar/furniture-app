@@ -149,7 +149,7 @@ function Services() {
         
       </div>
     </div>   
-    <div className='w-full h-[168px] md:bg-banner-bg bg-cover mt-20 -mb-20  '>
+    <div className='w-full h-[168px] md:bg-banner-bg bg-cover md:mt-40 -mb-20   '>
 
             <form className='pt-10 justify-center flex flex-col-2 gap-10 '>
                      <input
