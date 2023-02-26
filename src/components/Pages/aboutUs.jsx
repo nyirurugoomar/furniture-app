@@ -131,7 +131,7 @@ function aboutUs() {
                       name='mail'
                       placeholder='Email'
                     />
-                    <button className='md:text-white border-2 p-4 rounded-2xl border-[#F1C40F] text-[20px]'>Subscribe</button>
+                    <button className='md:text-white border-2 p-4 rounded-2xl border-[#F1C40F] text-[20px] hover:bg-[#F1C40F] hover:text-black'>Subscribe</button>
             </form>
 
           </div>
