@@ -37,33 +37,43 @@ function Services() {
                   
               <div className=' '>
               
-              <div className='p-1 group hover:bg-gradient-to-r from-[#120c0c] to-[#e4d458]'>
-                 
-                 <img src={services_mini} className='group-hover:opacity-10 rounded-xl' alt=''/>
-                 
+              <div className='relative flex items-center justify-center h-auto min-w-full  rounded-xl p-28 group hover:bg-gradient-to-r from-[rgb(40,40,40)] to-[#1f1e1e] bg-miniImage_services bg-cover '>
+                 <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] '>
+                      <p className='text-center py-3 px-4 rounded-3xl border-4 border-[#F1C40F] text-white font-bold text-lg cursor-pointer hover:scale-105 ease-in duration-300 '>More Info</p>
                  </div>
-                  
-                  
-              </div>
-              <div className=''>
-             
-              <div className='p-1 group hover:bg-gradient-to-r from-[#bcad0c] to-[#bcad0c]'>
-                 
-                 <img src={services_mini} className='group-hover:opacity-10 rounded-xl' alt=''/>
-                 
                  </div>
+                 <h3 className='text-center font-[700] text-[20px] tracking-widest '>Lorem ipsum dolor</h3>  
+              </div>
+
+              <div className=' '>
+              
+              <div className='relative flex items-center justify-center h-auto min-w-full  rounded-xl p-28 group hover:bg-gradient-to-r from-[rgb(40,40,40)] to-[#1f1e1e] bg-miniImage_services bg-cover '>
+                 <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] '>
+                      <p className='text-center py-3 px-4 rounded-3xl border-4 border-[#F1C40F] text-white font-bold text-lg cursor-pointer hover:scale-105 ease-in duration-300 '>More Info</p>
+                 </div>
+                 </div>
+                 <h3 className='text-center font-[700] text-[20px] tracking-widest '>Lorem ipsum dolor</h3>
                   
                   
               </div>
-              <div className=''>
-             
-                  <div className='p-1 group hover:bg-gradient-to-r from-[#000000] to-[#e4d458]'>
-                 
-                  <img src={services_mini} className='group-hover:opacity-10 rounded-xl' alt=''/>
+
+              <div className=' '>
+              
+              <div className='relative flex items-center justify-center h-auto min-w-full  rounded-xl p-28 group hover:bg-gradient-to-r from-[rgb(40,40,40)] to-[#1f1e1e] bg-miniImage_services bg-cover '>
+                 <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] '>
+                      <p className='text-center py-3 px-4 rounded-3xl border-4 border-[#F1C40F] text-white font-bold text-lg cursor-pointer hover:scale-105 ease-in duration-300 '>More Info</p>
+                 </div>
+                 </div>
+                 <h3 className='text-center font-[700] text-[20px] tracking-widest '>Lorem ipsum dolor</h3>
                   
-                  </div>
-                    
+                  
               </div>
+
+              
+
+              
+              
+              
               
          
           </div>
