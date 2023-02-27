@@ -5,7 +5,7 @@ module.exports = {
   ],
   theme: {
     fontFamily:{
-      'krona': ['Krona One, sans-serif']
+      'krona': ['Krona One','sans-serif']
     },
     extend: {
       backgroundImage: {

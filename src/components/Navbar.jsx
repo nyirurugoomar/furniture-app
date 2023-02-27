@@ -53,9 +53,9 @@ useEffect(()=>{
                     <NavLink to="/productpage" >
                     <li className='ml-10 text-sm uppercase hover:border-b-2 border-[#F1C40F] text-white p-4 font-bold'>Products</li>
                     </NavLink>
-                {/* <Link href='/#contact'> */}
+                    <NavLink to="/contact" >
                     <li className='ml-40 text-sm uppercase hover:border-b-2 border-[#F1C40F] text-black text-center font-bold bg-[#F1C40F] p-4 rounded h-12 w-40 '>Contact</li>
-                {/* </Link> */}
+                    </NavLink>
             </ul>
             
             <div onClick={handleNav} className='md:hidden cursor-pointer'>

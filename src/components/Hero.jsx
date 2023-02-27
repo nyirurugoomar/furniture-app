@@ -11,7 +11,7 @@ function Hero() {
                 <Fade bottom>
                     <h1 className='text-[#F1C40F] md:text-[70px]  font-krona font-[400]'>Discover Beautiful and Affordable Furniture for Your Home</h1>
                 </Fade>
-                <button className='border-4 border-[#F1C40F] p-4 rounded-[80px] w-[160px] md:text-white cursor-pointer text-2xl hover:scale-110 ease-in duration-300'>Get More</button>
+                <button className='border-2 border-[#F1C40F] p-4 rounded-[80px] w-[160px] md:text-white cursor-pointer text-2xl hover:scale-110 ease-in duration-300'>Get More</button>
                
             </div>
         </div>
