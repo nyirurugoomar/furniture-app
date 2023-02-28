@@ -17,6 +17,7 @@ function Footer() {
                     <h1 className='font-[700] text-[35px] tracking-widest'>Contact</h1>
                     <p className='tracking-wider font-[400]'>Tel:0784444444</p>
                     <p className='tracking-wider font-[400]'>Email:mail@gmail.com</p>
+                    <p className='tracking-wider font-[400]'>P.O. Box 000, Kigali/RW</p>
                 </div>
 
                 

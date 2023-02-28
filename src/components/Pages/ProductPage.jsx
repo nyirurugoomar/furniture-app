@@ -1,6 +1,5 @@
 import React from 'react'
 import ProductContainer from '../ProductContainer'
-
 import chair2 from './images/chair2.png'
 import chair3 from './images/chair3.png'
 
