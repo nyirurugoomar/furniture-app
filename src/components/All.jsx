@@ -1,6 +1,9 @@
 import React from 'react'
 import Zoom from 'react-reveal/Zoom';
 import chair from '../assets/chair.png'
+import redchair from '../assets/red chair.png'
+import chairall from '../assets/c1.png'
+import officechair from '../assets/officechair.png'
 
 function All() {
   return (
@@ -25,7 +28,7 @@ function All() {
               <Zoom>
                   <div className='p-20'>
                       <div class='icons-services'>
-                       <img src={chair }  alt='/'/>
+                       <img src={redchair}  alt='/'/>
                       </div>
                       
                   </div>
@@ -36,7 +39,7 @@ function All() {
               <Zoom>
                   <div className='p-20'>
                      <div class='icons-services'>
-                       <img src={chair}  alt='/'/>
+                       <img src={chairall}  alt='/'/>
                       </div>
                       
                   </div>
@@ -47,7 +50,7 @@ function All() {
               <Zoom>
                   <div className='p-20'>
                   <div class='icons-services'>
-                       <img src={chair}  alt='/'/>
+                       <img src={officechair}  alt='/'/>
                       </div>
                       
                   </div>
