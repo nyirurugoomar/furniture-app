@@ -2,6 +2,7 @@ import React from 'react'
 import ProductContainer from '../ProductContainer'
 import chair2 from './images/chair2.png'
 import chair3 from './images/chair3.png'
+import chaire30 from './images/chaire30.png'
 
 function ProductPages() {
   return (
@@ -17,7 +18,7 @@ function ProductPages() {
         <div className='grid grid-cols-2 lg:grid-cols-3 gap-8 p-20'>
           <div>
             
-            <img src={chair3} className="hover:scale-110 ease-in duration-300" width='' height='580px' alt="" />
+            <img src={chaire30} className="hover:scale-110 ease-in duration-300" width='' height='580px' alt="" />
             
           </div>
           <div>

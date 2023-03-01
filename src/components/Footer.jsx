@@ -17,7 +17,7 @@ function Footer() {
                     <h1 className='font-[700] text-[35px] tracking-widest'>Contact</h1>
                     <p className='tracking-wider font-[400]'>Tel:0784444444</p>
                     <p className='tracking-wider font-[400]'>Email:mail@gmail.com</p>
-                    <p className='tracking-widest font-[400]'>P.O. Box 000, Kigali/RW</p>
+                    <p className='tracking-widest font-[400]'>P.O.Box000,Kigali/RW</p>
                 </div>
 
                 
@@ -50,7 +50,7 @@ function Footer() {
                
             </div>
 
-            <h1 className='text-white text-center mt-40 tracking-widest font-[700]'>Furniture 2023 All rights reserved</h1>
+            <h1 className='text-white text-center mt-[8rem] tracking-widest font-[700]'>Furniture 2023 All rights reserved</h1>
         </div>
     
     </>

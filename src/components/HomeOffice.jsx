@@ -1,6 +1,7 @@
 import React from 'react'
 import Zoom from 'react-reveal/Zoom';
 import homeoffice from '../assets/home office.png'
+import officechair from '../assets/officechair.png'
 function HomeOffice() {
   return (
     <>
@@ -13,7 +14,7 @@ function HomeOffice() {
               <Zoom>
                   <div className='p-20'>
                      <div class=''>
-                       <img src={homeoffice}  alt='/'/>
+                       <img src={officechair}  alt='/'/>
                       </div>
                       
                   </div>
@@ -31,49 +32,9 @@ function HomeOffice() {
                 </Zoom>
                   
               </div>
-              <div className='bg-white rounded-xl shadow-2xl border-[3px] border-black'>
-              <Zoom>
-                  <div className='p-20'>
-                     <div class='icons-services'>
-                       <img src={homeoffice}  alt='/'/>
-                      </div>
-                      
-                  </div>
-                  </Zoom>
-                  
-              </div>
-              <div className='bg-white rounded-xl shadow-2xl border-[3px] border-black'>
-              <Zoom>
-                  <div className='p-20'>
-                  <div class='icons-services'>
-                       <img src={homeoffice}  alt='/'/>
-                      </div>
-                      
-                  </div>
-                  </Zoom> 
-              </div>
-              <div className='bg-white rounded-xl shadow-2xl border-[3px] border-black'>
-              <Zoom>
-                  <div className='p-20'>
-                  <div class='icons-services'>
-                       <img src={homeoffice}  alt='/'/>
-                      </div>
-                      
-                  </div>
-                  </Zoom>
-                  
-              </div>
-              <div className='bg-white rounded-xl shadow-2xl border-[3px] border-black'>
-              <Zoom>
-                  <div className='p-20'>
-                  <div class='icons-services'>
-                       <img src={homeoffice}  alt='/'/>
-                      </div>
-                       
-                  </div>
-                  </Zoom>
-                  
-              </div>
+              
+              
+              
           </div>
       </div>
     </>

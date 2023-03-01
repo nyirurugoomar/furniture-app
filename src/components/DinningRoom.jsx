@@ -1,6 +1,8 @@
 import React from 'react'
 import Zoom from 'react-reveal/Zoom';
 import dinningroom from '../assets/dinningroom.png'
+import livingroom from '../assets/living room-1.png'
+import home_dinning from '../assets/home_dinning.png'
 
 function DinningRoom() {
   return (
@@ -14,7 +16,7 @@ function DinningRoom() {
               <Zoom>
                   <div className='p-20'>
                      <div class=''>
-                       <img src={dinningroom}  alt='/'/>
+                       <img src={livingroom}  alt='/'/>
                       </div>
                       
                   </div>
@@ -36,45 +38,16 @@ function DinningRoom() {
               <Zoom>
                   <div className='p-20'>
                      <div class='icons-services'>
-                       <img src={dinningroom}  alt='/'/>
+                       <img src={home_dinning}  alt='/'/>
                       </div>
                       
                   </div>
                   </Zoom>
                   
               </div>
-              <div className='bg-white rounded-xl shadow-2xl border-[3px] border-black'>
-              <Zoom>
-                  <div className='p-20'>
-                  <div class='icons-services'>
-                       <img src={dinningroom}  alt='/'/>
-                      </div>
-                      
-                  </div>
-                  </Zoom> 
-              </div>
-              <div className='bg-white rounded-xl shadow-2xl border-[3px] border-black'>
-              <Zoom>
-                  <div className='p-20'>
-                  <div class='icons-services'>
-                       <img src={dinningroom}  alt='/'/>
-                      </div>
-                      
-                  </div>
-                  </Zoom>
-                  
-              </div>
-              <div className='bg-white rounded-xl shadow-2xl border-[3px] border-black'>
-              <Zoom>
-                  <div className='p-20'>
-                  <div class='icons-services'>
-                       <img src={dinningroom}  alt='/'/>
-                      </div>
-                       
-                  </div>
-                  </Zoom>
-                  
-              </div>
+             
+              
+              
           </div>
       </div>
     </>

@@ -4,6 +4,8 @@ import chair from '../assets/chair.png'
 import redchair from '../assets/red chair.png'
 import chairall from '../assets/c1.png'
 import officechair from '../assets/officechair.png'
+import bed from '../assets/bed.png'
+import table from '../assets/table.png'
 
 function All() {
   return (
@@ -60,7 +62,7 @@ function All() {
               <Zoom>
                   <div className='p-20'>
                   <div class='icons-services'>
-                       <img src={chair}  alt='/'/>
+                       <img src={bed}  alt='/'/>
                       </div>
                       
                   </div>
@@ -71,7 +73,7 @@ function All() {
               <Zoom>
                   <div className='p-20'>
                   <div class='icons-services'>
-                       <img src={chair}  alt='/'/>
+                       <img src={table}  alt='/'/>
                       </div>
                        
                   </div>
